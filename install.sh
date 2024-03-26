@@ -8,10 +8,10 @@ else
 fi
 
 if [ -f "$HOME/.gitconfig" ];then
-  rm .bash_aliases 
-  cp .bash_aliases "$HOME"
+  rm .gitconfig
+  cp .gitconfig "$HOME"
 else
-  cp .bash_aliases "$HOME"
+  cp .gitconfig "$HOME"
 fi
 
 if command -v npm &> /dev/null; then
